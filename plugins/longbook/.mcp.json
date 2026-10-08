@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "longbook": {
+      "type": "http",
+      "url": "https://longbook.app/mcp"
+    }
+  }
+}
