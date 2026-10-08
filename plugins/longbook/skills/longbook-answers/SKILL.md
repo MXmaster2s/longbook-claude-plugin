@@ -1,9 +1,10 @@
 ---
 name: longbook-answers
 description: >
-  Answers questions about the user's money from their longbook: what is due next, what is
-  coming in the next 30 days, what a month cost, and what renews this year. Use when the user
-  says "What's my next commitment in my longbook", "What do I pay next?", "What is coming in my
+  Answers questions about the user's bills, subscriptions, payments and spending from their
+  longbook, even when they do not name longbook: what is due next or this week, what is coming
+  in the next 30 days, what a month cost, and what renews this year. Use when the user says
+  "What's my next commitment in my longbook", "What do I pay next?", "What is coming in my
   longbook in the next 30 days?", "What is coming in the next 30 days?", "What do I owe this
   month?", "What did I spend in July in my longbook?", or asks for the same in their own words.
   Works through the longbook connector (https://longbook.app/mcp).
@@ -13,9 +14,10 @@ description: >
 
 longbook is the user's financial memory: every commitment they pay, its charges past and
 planned, their accounts and the people payments are for. Answers questions about the user's
-money from their longbook: what is due next, what is coming in the next 30 days, what a month
-cost, and what renews this year. Each prompt below has a procedure on the longbook server;
-follow it rather than improvising one.
+bills, subscriptions, payments and spending from their longbook, even when they do not name
+longbook: what is due next or this week, what is coming in the next 30 days, what a month cost,
+and what renews this year. Each prompt below has a procedure on the longbook server; follow it
+rather than improvising one.
 
 ## How to run one
 
