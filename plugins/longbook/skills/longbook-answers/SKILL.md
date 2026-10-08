@@ -1,13 +1,14 @@
 ---
 name: longbook-answers
 description: >
-  Answers questions about the user's bills, subscriptions, payments and spending from their
-  longbook, even when they do not name longbook: what is due next or this week, what is coming
-  in the next 30 days, what a month cost, and what renews this year. Use when the user says
-  "What's my next commitment in my longbook", "What do I pay next?", "What is coming in my
-  longbook in the next 30 days?", "What is coming in the next 30 days?", "What do I owe this
-  month?", "What did I spend in July in my longbook?", or asks for the same in their own words.
-  Works through the longbook connector (https://longbook.app/mcp).
+  Use for requests like "what bills are coming up this week", "what do I pay next", "how much
+  did I spend in September", "which premiums renew this year", "what subscriptions renew this
+  month", "What's my next commitment in my longbook", "What do I pay next?", "What is coming in
+  my longbook in the next 30 days?", "What is coming in the next 30 days?", even when the user
+  does not name longbook. Answers questions about the user's bills, subscriptions, payments and
+  spending from their longbook, even when they do not name longbook: what is due next or this
+  week, what is coming in the next 30 days, what a month cost, and what renews this year. Works
+  through the longbook connector (https://longbook.app/mcp).
 ---
 
 # longbook: Answers

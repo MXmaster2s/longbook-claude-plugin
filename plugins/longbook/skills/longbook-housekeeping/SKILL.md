@@ -1,10 +1,12 @@
 ---
 name: longbook-housekeeping
 description: >
-  Tidies the user's longbook (doubled charges, bank-style names, odd categories) and sets up a
-  morning brief of what is due. Use when the user says "Tidy my longbook", "Set up a morning
-  brief for my longbook", "Set yourself up for a longbook morning brief", or asks for the same
-  in their own words. Works through the longbook connector (https://longbook.app/mcp).
+  Use for requests like "clean up duplicates in my longbook", "fix the weird names in my
+  expenses", "give me a morning summary of what's due", "Tidy my longbook", "Set up a morning
+  brief for my longbook", "Set yourself up for a longbook morning brief", even when the user
+  does not name longbook. Tidies the user's longbook (doubled charges, bank-style names, odd
+  categories) and sets up a morning brief of what is due. Works through the longbook connector
+  (https://longbook.app/mcp).
 ---
 
 # longbook: Housekeeping

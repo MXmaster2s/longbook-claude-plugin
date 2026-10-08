@@ -1,12 +1,13 @@
 ---
 name: longbook-keep-current
 description: >
-  Keeps the user's longbook current: this month's invoices, bills and money in from their
-  email, a daily email round, invoices and receipts kept as files, and a new commitment or
-  expense. Use when the user says "Add email invoices in my longbook", "Go to longbook.app/mcp
-  and set up a daily email round for my longbook, as longbook recommends", "Add document
-  invoices in my longbook", "Add a commitment in my longbook", "Add an expense in my longbook",
-  "Add my new gym membership to my longbook", or asks for the same in their own words. Works
+  Use for requests like "add this month's bills from my email", "check my email every morning
+  for payments", "add these invoices", "add my new gym membership", "I spent 2,000 on
+  groceries", "Add email invoices in my longbook", "Go to longbook.app/mcp and set up a daily
+  email round for my longbook, as longbook recommends", "Add document invoices in my longbook",
+  "Add a commitment in my longbook", even when the user does not name longbook. Keeps the
+  user's longbook current: this month's invoices, bills and money in from their email, a daily
+  email round, invoices and receipts kept as files, and a new commitment or expense. Works
   through the longbook connector (https://longbook.app/mcp).
 ---
 

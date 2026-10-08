@@ -1,13 +1,14 @@
 ---
 name: longbook-setup
 description: >
-  Sets up the user's longbook, their record of subscriptions, bills, rent, salaries, loans and
-  other commitments, from bank and card statements; adds later statements, categorises it, and
-  completes a month so longbook can draw its report. Use when the user says "Read my 12-month
+  Use for requests like "set up my longbook", "import my bank statement", "add last month's
+  statement", "categorise my expenses", "complete September in my longbook", "Read my 12-month
   bank statement and help me set up my longbook", "Set up my longbook", "Add my statement in my
-  longbook", "Update my longbook from my statements", "Add my statement", "Categorise my
-  longbook", or asks for the same in their own words. Works through the longbook connector
-  (https://longbook.app/mcp).
+  longbook", "Update my longbook from my statements", even when the user does not name
+  longbook. Sets up the user's longbook, their record of subscriptions, bills, rent, salaries,
+  loans and other commitments, from bank and card statements; adds later statements,
+  categorises it, and completes a month so longbook can draw its report. Works through the
+  longbook connector (https://longbook.app/mcp).
 ---
 
 # longbook: Set up

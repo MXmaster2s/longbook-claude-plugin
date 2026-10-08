@@ -1,14 +1,14 @@
 ---
 name: longbook-from-email
 description: >
-  Finds subscriptions, expenses, invoices, insurances, purchases, bills, loans and EMIs, travel
-  bookings or money in in the user's email, and adds them to their longbook. Use when the user
-  says "Find subscriptions from my email and add them in my longbook", "Find expenses from my
-  email and add them in my longbook", "Find invoices from my email and add them in my
-  longbook", "Find insurances from my email and add them in my longbook", "Find purchases from
-  my email and add them in my longbook", "Find bills from my email and add them in my
-  longbook", or asks for the same in their own words. Works through the longbook connector
-  (https://longbook.app/mcp).
+  Use for requests like "find my subscriptions in my email", "find my insurance policies in my
+  email", "pull my Amazon orders from Gmail", "add my salary credits from email", "find my EMI
+  payments in my mail", "Find subscriptions from my email and add them in my longbook", "Find
+  expenses from my email and add them in my longbook", "Find invoices from my email and add
+  them in my longbook", "Find insurances from my email and add them in my longbook", even when
+  the user does not name longbook. Finds subscriptions, expenses, invoices, insurances,
+  purchases, bills, loans and EMIs, travel bookings or money in in the user's email, and adds
+  them to their longbook. Works through the longbook connector (https://longbook.app/mcp).
 ---
 
 # longbook: From your email
