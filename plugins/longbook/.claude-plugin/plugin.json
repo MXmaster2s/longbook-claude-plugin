@@ -1,13 +1,15 @@
 {
   "name": "longbook",
   "displayName": "longbook",
-  "version": "1.39.3",
-  "description": "longbook's prompts for Claude: set up your longbook from your statements, keep it current from your email and files, ask what is due and what a month cost, and draw reports. Bundles the longbook connector; sign in with your longbook account.",
+  "version": "1.40.0",
+  "description": "longbook's prompts for Claude: set up your longbook from your statements, keep it current from your email and files, ask what is due and what a month cost, and draw reports. Bundles the longbook connector and Gmail; sign in with your longbook account.",
   "author": {
     "name": "longbook",
     "url": "https://longbook.app"
   },
   "homepage": "https://longbook.app/automations/",
+  "repository": "https://github.com/MXmaster2s/longbook-claude-plugin",
+  "license": "MIT",
   "keywords": [
     "longbook",
     "finance",

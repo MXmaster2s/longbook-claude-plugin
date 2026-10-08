@@ -1,23 +1,40 @@
-# longbook for Claude
+---
+name: longbook-start
+description: >
+  Use when the user has just installed longbook, asks what longbook can do, or says "help me
+  with my longbook", "where do I start with longbook", "what should I do in longbook" or
+  "longbook start". Checks the longbook connection, starts setup when the longbook is empty,
+  shows every longbook prompt with its slash command, and offers the morning brief, the daily
+  email round and the weekly page on a schedule.
+---
 
-longbook remembers every commitment you pay: subscriptions, bills, rent, salaries, insurance
-and loans, with their charges past and planned. This plugin brings longbook's prompts to Claude
-as skills and slash commands, and connects Claude to your longbook. Ask in your own words, or
-type a command.
+# longbook: Start here
 
-## Install
+longbook is the user's financial memory: every commitment they pay, its charges past and
+planned, their accounts and the people payments are for. This is the front door: check the
+connection, start where the user is, and point to the one prompt that helps most now.
 
-In Claude Code or the Claude desktop app:
+## Steps
 
-```
-/plugin marketplace add MXmaster2s/longbook-claude-plugin
-/plugin install longbook@longbook
-```
+1. Call the longbook connector's `whoami`. If no longbook tools are available, the longbook
+   connector needs signing in: in Claude Code run /mcp and sign in to longbook; in the Claude
+   apps, Settings, then Connectors, then longbook. Sign in with the longbook account. Without the
+   plugin, add a custom connector with the address https://longbook.app/mcp. Then stop.
+2. If whoami says this connection cannot write, say its how_to_enable sentence: the user
+   switches it on in the longbook app.
+3. If the longbook holds no commitments yet, offer `/longbook:set-up`: attach bank and card
+   statements, ideally the last 12 months. Stop there unless the user wants the list.
+4. Otherwise, say in two lines what it holds (commitments, accounts, members) and what is
+   waiting: names to fill in from setup, and suggestions the app could not apply.
+5. Show the prompts below, by group, each with its slash command. The user can also just ask in
+   their own words.
+6. Check for a mail connector. If none is signed in, say the email prompts need one: the plugin
+   bundles Gmail, signed in with the user's Google account.
+7. Offer, and set up only what the user picks, each by its own procedure:
+   `/longbook:morning-brief`, `/longbook:email-round` and `/longbook:weekly-page` every Monday.
+8. End with the single best next step for this user.
 
-Then sign in to the longbook connector with your longbook account, and to Gmail if you want the
-email prompts. Start with `/longbook:start`.
-
-## Commands
+## The prompts
 
 **Setting up**
 
@@ -97,32 +114,3 @@ email prompts. Start with `/longbook:start`.
   where and when.
 - `/longbook:find-money-in`: Find money in from my email. Your salary, refunds, interest and
   other money in from the last 12 months of your mail, kept apart from spending.
-
-## Skills
-
-- **longbook-setup**: Sets up the user's longbook, their record of subscriptions, bills, rent, salaries, loans and other commitments, from bank and card statements; adds later statements, categorises it, and completes a month so longbook can draw its report.
-- **longbook-keep-current**: Keeps the user's longbook current: this month's invoices, bills and money in from their email, a daily email round, invoices and receipts kept as files, and a new commitment or expense.
-- **longbook-answers**: Answers questions about the user's bills, subscriptions, payments and spending from their longbook: what is due next or this week, what is coming in the next 30 days, what a month cost, and what renews this year.
-- **longbook-reports**: Asks longbook to draw a report over the days, accounts, people or categories the user chooses, or for a trip.
-- **longbook-housekeeping**: Tidies the user's longbook (doubled charges, bank-style names, odd categories) and sets up a morning brief of what is due.
-- **longbook-from-email**: Finds subscriptions, expenses, invoices, insurances, purchases, bills, loans and EMIs, travel bookings or money in in the user's email, and adds them to their longbook.
-- **longbook-start**: checks the connection, starts setup, and shows every prompt.
-
-Each skill and command asks the longbook server for the prompt's procedure with read_guide, so
-the steps are always the server's current ones.
-
-## What it connects to
-
-- **longbook** (https://longbook.app/mcp), signed in with your longbook account. Claude reads
-  your longbook through it; what Claude writes waits in the longbook app's Changes screen, where
-  you keep it or undo it.
-- **Gmail** (https://gmailmcp.googleapis.com/mcp/v1), signed in with your Google account. Only
-  the email prompts read it, to find payments, bills and receipts.
-
-The plugin runs no code on your machine and sends nothing anywhere else. Privacy:
-https://longbook.app/privacy-policy/. Generated from the longbook prompt catalogue (contract
-revision 40).
-
-## License
-
-MIT
