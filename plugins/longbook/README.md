@@ -125,4 +125,4 @@ revision 40).
 
 ## License
 
-MIT
+GPL-3.0, the same licence as longbook. See LICENSE.
