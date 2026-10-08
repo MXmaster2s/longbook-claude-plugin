@@ -3,22 +3,21 @@ name: longbook-answers
 description: >
   Use for requests like "what bills are coming up this week", "what do I pay next", "how much
   did I spend in September", "which premiums renew this year", "what subscriptions renew this
-  month", "What's my next commitment in my longbook", "What do I pay next?", "What is coming in
-  my longbook in the next 30 days?", "What is coming in the next 30 days?", even when the user
-  does not name longbook. Answers questions about the user's bills, subscriptions, payments and
-  spending from their longbook, even when they do not name longbook: what is due next or this
-  week, what is coming in the next 30 days, what a month cost, and what renews this year. Works
-  through the longbook connector (https://longbook.app/mcp).
+  month", "What's my next commitment in my longbook", "What is coming in my longbook in the
+  next 30 days?", "What is coming in the next 30 days?", "What do I owe this month?", even when
+  the user does not name longbook. Answers questions about the user's bills, subscriptions,
+  payments and spending from their longbook: what is due next or this week, what is coming in
+  the next 30 days, what a month cost, and what renews this year. Works through the longbook
+  connector (https://longbook.app/mcp).
 ---
 
 # longbook: Answers
 
 longbook is the user's financial memory: every commitment they pay, its charges past and
 planned, their accounts and the people payments are for. Answers questions about the user's
-bills, subscriptions, payments and spending from their longbook, even when they do not name
-longbook: what is due next or this week, what is coming in the next 30 days, what a month cost,
-and what renews this year. Each prompt below has a procedure on the longbook server; follow it
-rather than improvising one.
+bills, subscriptions, payments and spending from their longbook: what is due next or this week,
+what is coming in the next 30 days, what a month cost, and what renews this year. Each prompt
+below has a procedure on the longbook server; follow it rather than improvising one.
 
 ## How to run one
 

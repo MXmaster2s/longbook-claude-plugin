@@ -3,10 +3,9 @@ name: longbook-reports
 description: >
   Use for requests like "make a report of my Goa trip", "a report of what we spent on the kids
   this quarter", "create a report for my business card", "Create a report in my longbook",
-  "Make a report of my Goa trip in my longbook", "Make a report of my Goa trip", even when the
-  user does not name longbook. Asks longbook to draw a report over the days, accounts, people
-  or categories the user chooses, or for a trip. Works through the longbook connector
-  (https://longbook.app/mcp).
+  "Make a report of my Goa trip in my longbook", even when the user does not name longbook.
+  Asks longbook to draw a report over the days, accounts, people or categories the user
+  chooses, or for a trip. Works through the longbook connector (https://longbook.app/mcp).
 ---
 
 # longbook: Reports
