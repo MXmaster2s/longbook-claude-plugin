@@ -123,6 +123,15 @@ The plugin runs no code on your machine and sends nothing anywhere else. Privacy
 https://longbook.app/privacy-policy/. Generated from the longbook prompt catalogue (contract
 revision 40).
 
+## More about longbook
+
+- [longbook.app](https://longbook.app/): the app for Mac and iPhone
+- [Automate longbook with Claude](https://longbook.app/features/automate-longbook-with-claude/)
+- [Every automation](https://longbook.app/automations/) and [every feature](https://longbook.app/features/)
+- [Review every change your AI makes](https://longbook.app/features/review-every-change-your-ai-makes/)
+- [Log expenses from Gmail](https://longbook.app/features/log-expenses-from-gmail/)
+- [Why we built longbook](https://longbook.app/why-we-built-longbook/)
+
 ## License
 
 GPL-3.0, the same licence as longbook. See LICENSE.
