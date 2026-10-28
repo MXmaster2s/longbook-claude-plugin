@@ -87,6 +87,9 @@ connection, start where the user is, and point to the one prompt that helps most
 
 - `/longbook:tidy`: Tidy my longbook. Doubled charges, bank-style names and odd categories
   found, and fixed once you approve each change.
+- `/longbook:reorganise`: Reorganise my longbook. Your whole longbook, once over: names as you
+  would say them, every row categorised, people and accounts linked, doubles merged, nothing
+  lost.
 - `/longbook:morning-brief`: Set up a morning brief. A short summary every morning of what is
   due today and in the next 30 days.
 
