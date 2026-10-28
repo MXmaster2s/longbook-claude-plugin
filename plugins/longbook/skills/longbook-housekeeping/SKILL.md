@@ -2,11 +2,11 @@
 name: longbook-housekeeping
 description: >
   Use for requests like "clean up duplicates in my longbook", "fix the weird names in my
-  expenses", "give me a morning summary of what's due", "Tidy my longbook", "Set up a morning
-  brief for my longbook", "Set yourself up for a longbook morning brief", even when the user
-  does not name longbook. Tidies the user's longbook (doubled charges, bank-style names, odd
-  categories) and sets up a morning brief of what is due. Works through the longbook connector
-  (https://longbook.app/mcp).
+  expenses", "give me a morning summary of what's due", "Tidy my longbook", "Reorganise my
+  longbook", "Set up a morning brief for my longbook", "Set yourself up for a longbook morning
+  brief", even when the user does not name longbook. Tidies the user's longbook (doubled
+  charges, bank-style names, odd categories) and sets up a morning brief of what is due. Works
+  through the longbook connector (https://longbook.app/mcp).
 ---
 
 # longbook: Housekeeping
@@ -42,7 +42,20 @@ each change.
 
 Attachments: none.
 
-Writes to the longbook: yes; it waits in the app's Changes screen.
+Writes to the longbook: yes; it waits in the app's Proposals screen.
+
+### Reorganise my longbook
+
+Name: `reorganise-my-longbook`
+
+The user says: "Reorganise my longbook".
+
+Result: Your whole longbook, once over: names as you would say them, every row categorised,
+people and accounts linked, doubles merged, nothing lost. The whole pass waits in Proposals.
+
+Attachments: none.
+
+Writes to the longbook: yes; it waits in the app's Proposals screen.
 
 ### Set up a morning brief
 
